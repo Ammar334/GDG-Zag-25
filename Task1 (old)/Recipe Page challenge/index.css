@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3e9db;
+    padding: 20px;
+}
+
+.recipe-card {
+    width: 100%;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.recipe-image {
+    padding: 20px;
+    border-width: 0px;
+    width: 100%;
+    height: auto;
+}
+
+.recipe-content {
+    padding: 20px;
+}
+
+.recipe-content h1 {
+    font-size: 24px;
+    color: #3c2f2f;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 14px;
+    color: #5f5f5f;
+    margin-bottom: 20px;
+}
+
+.prep-time,
+.ingredients,
+.instructions,
+.nutrition {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #3c2f2f;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #e8c8a1;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+ul,
+ol {
+    margin-left: 20px;
+}
+
+ul li,
+ol li {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+    color: #333;
+}
+
+table th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+table td {
+    background-color: #fff;
+}
